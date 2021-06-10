@@ -30,6 +30,11 @@ void integer(long long int k)
   }
   k-= pow*n - (pow-1)/9;
   k-=1;
+  if (k==-1)
+  {
+    cout<<9<<endl;
+    return;
+  }
   // cout<<k<<endl;
   long long int index = k/(n+1);
   index += pow;
@@ -45,7 +50,7 @@ int main() {
   {
     long long int k;
     cin>>k;
-    // k = 12;
+    // k = 189;
     integer(k);
   }
   return 0;

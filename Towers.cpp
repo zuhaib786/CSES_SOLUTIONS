@@ -21,7 +21,7 @@ int main() {
     {
       // cout<<"*it "<<-(*it)<<endl;
       Towers.erase(it);
-      Towers.insert(-(k+1));
+      Towers.insert(-(k));
     }
   }
   cout<<count<<endl;

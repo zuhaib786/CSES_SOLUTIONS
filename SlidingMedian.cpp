@@ -30,10 +30,10 @@ int main() {
   }
   for(int i = k-1;i<n;i++)
   {
-    window.insert(make_pair(v[i], i));
-    auto it = window.find_by_order((k-1)/2);
-    cout<<(*it).first<<" ";
-    window.erase(window.find(make_pair(v[i-k+1], i-k+1)));
+      window.insert(make_pair(v[i], i));
+      auto it = window.find_by_order((k-1)/2);
+      cout<<(*it).first<<" ";
+      window.erase(window.find(make_pair(v[i-k+1], i-k+1)));
   }
   cout<<endl;
   return 0;

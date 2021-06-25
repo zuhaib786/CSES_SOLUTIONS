@@ -2,6 +2,7 @@
 #define MAX 1000000007
 using namespace std;
 pair<int, int> cycle_node = make_pair(-1,-1);
+stack<int>order;
 void printSet(set<int> &s)
 {
     cout<<"[ ";
@@ -40,14 +41,16 @@ void dfs(vector< vector<int>>&nodes, vector<int>&visited, set<int> &ancestors, v
         }
     }
     ancestors.erase(ancestors.find(vertex));
+    order.push(vertex);
     return;
 }
 int main()
 {
     ios_base::sync_with_stdio(false); cin.tie(NULL);
-    // Possible if and only if the graph has a cycle;
+    // Possible if and only if the graph has a topological ordering, i.e. it is DAG;
     int n, m;
     cin>>n>>m;
+    
     vector< vector<int>>nodes(n);
     set<pair<int, int>>s;
     for(int i = 0; i<m;i++)
@@ -56,7 +59,7 @@ int main()
         cin>>a>>b;
         if(s.find(make_pair(b,a))!= s.end())
         {
-            cout<<"3\n" <<a<<" "<<b<<" "<<a<<endl;
+            cout<<"IMPOSSIBLE\n";
             return 0;
         }
         s.insert(make_pair(a,b));
@@ -78,34 +81,16 @@ int main()
             dfs(nodes, visited, ancestors, previous, i);
         }
     }
-    if(cycle_node == make_pair(-1,-1))
+    if(cycle_node != make_pair(-1,-1))
     {
         cout<<"IMPOSSIBLE\n";
         return 0;
     }
-    int x = cycle_node.second;
-    int vertex = cycle_node.first;
-    vector<int>path;
-    path.push_back(vertex+1);
-    // for(auto p: previous)
-    // {
-    //     cout<<p<<" ";
-    // }
-    // cout<<"\n";
-    // cout<<cycle_node.first<<" "<<cycle_node.second<<endl;
-    while(vertex!=x)
+    while(order.size()!=0)
     {
-        // cout<<vertex<<endl;
-        vertex = previous[vertex];
-        path.push_back(vertex+1);
+        cout<<order.top()+1<<" ";
+        order.pop();
     }
-    path.push_back(path[0]);
-    cout<<path.size()<<endl;
-    reverse(path.begin(), path.end());
-    for(auto x: path)
-    {
-        cout<<x<<" ";
-    }
-    cout<<'\n';
+    cout<<endl;
     return 0;
 } 

@@ -1,45 +1,75 @@
     #include<bits/stdc++.h>
     #define MAX 1000000007
     using namespace std; 
-    bool isConnected(vector<unordered_set<int>>&nodes, vector<int> & deg)
+    void dfs(vector<unordered_set<int>> &nodes,vector<int>&visited , int vertex, stack<int> &order)
     {
-        // cout<<"OKSSS\n";
-        vector<bool> visited(nodes.size(), false);
-        queue<int>q;
-        q.push(0);
-        while(q.size()!=0)
+        visited[vertex] = 1;
+        for(int x: nodes[vertex])
         {
-            int u = q.front();
-            q.pop();
-            visited[u] = 1;
-            for(int v: nodes[u])
+            if(visited[x] == 0)
             {
-                if(visited[v]!=1)
-                {
-                    visited[v] = 1;
-                    q.push(v);
-                }
+                visited[x] = 1;
+                dfs(nodes, visited, x, order);
             }
         }
-        for(int i = 0 ; i<nodes.size();i++)
+        order.push(vertex);
+    }
+    bool isConnected(vector<unordered_set<int>>&nodes, vector<int> & deg)
+    {
+        int n = nodes.size();
+        //constructing reverse_graph;
+        if(nodes[n-1].find(0)!=nodes[n-1].end())
         {
-            if(deg[i]!=0 && visited[i]==0)
+            
+            return false;
+        }
+        nodes[n-1].insert(0);
+        vector<unordered_set<int>>rev_graph(n);
+        for(int i = 0 ; i<n;i++)
+        {
+            for(int x: nodes[i])
+            {
+                rev_graph[x].insert(i);
+            }
+        }
+        vector<int>visited(n,0);
+        stack<int> order;
+        dfs(nodes,visited,0, order);
+
+        for(int i = 0 ; i<n;i++)
+        {
+            if(visited[i] == 0 &&deg[i]!=0)
+            { 
+                return false;
+            }
+
+        }
+        int u = order.top();
+        order.pop();
+        visited = vector<int>(n,0);
+        dfs(rev_graph,visited, u,order);
+        for(int i = 0; i<n; i++)
+        {
+            if(visited[i] == 0 && deg[i]!=0)
             {
                 return false;
             }
         }
+        nodes[n-1].erase(nodes[n-1].find(0));
         // cout<<"Done\n";
         return true;
     }
     bool is_of_even_deg( vector<int> &deg)
     {
         int n = deg.size();
+        int i = 0;
         for(int x: deg)
         {
             if(x%2 == 1)
             {
-                if(x == n-1 || x== 0)
+                if(i == n-1 || i== 0)
                 {
+                    i++;
                     continue;
                 }
                
@@ -47,11 +77,13 @@
             }
             else
             {
-                if(x==n-1 || x== 0)
+                if(i==n-1 || i== 0)
                 {
                     return false;
                 }
+                i++;
             }
+            
         }
         return true;
     }
@@ -69,6 +101,8 @@
         cin>>n>>m;
         vector<unordered_set<int>>nodes(n);
         vector<int>deg(n,0);
+        vector<int>indeg(n,0);
+        vector<int> outdeg(n,0);
         for(int i = 0; i<m;i++)
         {
             int a, b;
@@ -76,11 +110,21 @@
             nodes[a-1].insert(b-1);
             deg[a-1]++;
             deg[b-1]++;
+            indeg[b-1]++;
+            outdeg[a-1]++;
         }
         if(!isPossible(nodes, deg))
         {
             cout<<"IMPOSSIBLE\n";
             return 0;
+        }
+        for(int i = 1; i<n-1;i++)
+        {
+            if(indeg[i]!=outdeg[i])
+            {
+                cout<<"IMPOSSIBLE\n";
+                return 0;
+            }
         }
         nodes[n-1].insert(0);
         int v1 = 0;

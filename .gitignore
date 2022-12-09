@@ -1,2 +1,5 @@
-input.txt/
-a.out/
+input.txt
+output.txt
+a.out
+ssh
+ssh.pub

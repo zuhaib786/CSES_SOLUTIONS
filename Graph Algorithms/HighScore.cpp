@@ -7,8 +7,8 @@ int main()
     int n, m;
     cin>>n>>m;
     //Bellman Ford
-    vector<pair<pair<int, int>, long long int>> edges(m);
-    vector<vector<int> >rev_graph(n);
+    pair<pair<int, int>, long long int> edges[m];
+    vector<int> rev_graph[n];
     for(int i = 0;i<m;i++)
     {
         int a, b;
@@ -31,10 +31,13 @@ int main()
             if(visited.find(x) == visited.end())
             {
                 q.push(x);
+                visited.insert(x);
             }
         }
     }
-    vector<long long int>distance(n,1e14);
+    // cout<<"Rev DFS COmp\n"<<'\n';
+    long long int distance[n];
+    fill(distance, distance + n, MAX);
     distance[0] = 0;
     for(int i = 1; i<n;i++)
     {

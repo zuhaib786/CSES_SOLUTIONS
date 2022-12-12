@@ -54,7 +54,93 @@ This repository contains the solutions to the problems in the [CSES problem set]
 |Subarray Sums II| [Subarray Sums II CSES](https://cses.fi/problemset/task/1661)| [Subarray Sums II Solution](https://github.com/zuhaib786/CSES_SOLUTIONS/blob/main/Sorting%20And%20Searching/SubarraySumsII.cpp)|
 |Subarray Divisibilty| [Subarray Divisibility CSES](https://cses.fi/problemset/task/1662)| [Subarray Divisibility Solution](https://github.com/zuhaib786/CSES_SOLUTIONS/blob/main/Sorting%20And%20Searching/SubarrayDivisiblity.cpp)|
 |Subarray Distinct Values| [Subarray Distinct Values CSES](https://cses.fi/problemset/task/2428)| [Subarray Distinct Values Solution](https://github.com/zuhaib786/CSES_SOLUTIONS/blob/main/Sorting%20And%20Searching/SubArrayDistinctValues.cpp)|
+|Array Division| [Array Division CSES](https://cses.fi/problemset/task/1085)|[Array Division Solution](https://github.com/zuhaib786/CSES_SOLUTIONS/blob/main/Sorting%20And%20Searching/ArrayDivision.cpp)|
+|Sliding Median| [Sliding Median CSES](https://cses.fi/problemset/task/1076)| [Sliding Median Solution](https://github.com/zuhaib786/CSES_SOLUTIONS/blob/main/Sorting%20And%20Searching/SlidingMedian.cpp)|
+|Sliding Cost| [Sliding Cost CSES](https://cses.fi/problemset/task/1077)|[Sliding Cost Solution](https://github.com/zuhaib786/CSES_SOLUTIONS/blob/main/Sorting%20And%20Searching/SlidingCost.cpp)|
+|Movie Festival II| [Movie Festival II CSES](https://cses.fi/problemset/task/1632)| [Movie Festival II Solution](https://github.com/zuhaib786/CSES_SOLUTIONS/blob/main/Sorting%20And%20Searching/MovieFestivalII.cpp)|
+|Maximum Subarray Sum II| [Maximum Subarray Sum II CSES](https://cses.fi/problemset/task/1644)|[Maximum Subarray Sum II Solution](https://github.com/zuhaib786/CSES_SOLUTIONS/blob/main/Sorting%20And%20Searching/MaximumSubarraySumII.cpp)
 
+# Dynamic Programming
+| Problem Name | Link to the problem | Solution Link |
+|--------------|-------------------- | ------------- |
+|Elevator Rides |[Elevator Rides CSES](https://cses.fi/problemset/task/1653)|[Elevator Rides Solution](https://github.com/zuhaib786/CSES_SOLUTIONS/blob/main/Dynamic%20Programming/ElevatorRides.cpp)|
+|Counting Towers |[Counting Towers CSES](https://cses.fi/problemset/task/2413)|[Counting Towers Solution](https://github.com/zuhaib786/CSES_SOLUTIONS/blob/main/Dynamic%20Programming/CountingTowers.cpp)|
+|Coin Combinations II |[Coin Combinations II CSES](https://cses.fi/problemset/task/1636)|[Coin Combinations II Solution](https://github.com/zuhaib786/CSES_SOLUTIONS/blob/main/Dynamic%20Programming/CoinCombinationsII.cpp)|
+|Book Shop |[Book Shop CSES](https://cses.fi/problemset/task/1158)|[Book Shop Solution](https://github.com/zuhaib786/CSES_SOLUTIONS/blob/main/Dynamic%20Programming/BookShop.cpp)|
+|Coin Combinations I |[Coin Combinations I CSES](https://cses.fi/problemset/task/1635)|[Coin Combinations I Solution](https://github.com/zuhaib786/CSES_SOLUTIONS/blob/main/Dynamic%20Programming/CoinCombinationsI.cpp)|
+|Removing Digits |[Removing Digits CSES](https://cses.fi/problemset/task/1637)|[Removing Digits Solution](https://github.com/zuhaib786/CSES_SOLUTIONS/blob/main/Dynamic%20Programming/RemovingDigits.cpp)|
+|Edit Distance |[Edit Distance CSES](https://cses.fi/problemset/task/1639)|[Edit Distance Solution](https://github.com/zuhaib786/CSES_SOLUTIONS/blob/main/Dynamic%20Programming/EditDistance.cpp)|
+|Increasing Subsequence |[Increasing Subsequence CSES](https://cses.fi/problemset/task/1145)|[Increasing Subsequence Solution](https://github.com/zuhaib786/CSES_SOLUTIONS/blob/main/Dynamic%20Programming/IncreasingSubsequence.cpp)|
+|Money Sums |[Money Sums CSES](https://cses.fi/problemset/task/1745)|[Money Sums Solution](https://github.com/zuhaib786/CSES_SOLUTIONS/blob/main/Dynamic%20Programming/MoneySums.cpp)|
+|Array Description |[Array Description CSES](https://cses.fi/problemset/task/1746)|[Array Description Solution](https://github.com/zuhaib786/CSES_SOLUTIONS/blob/main/Dynamic%20Programming/ArrayDescription.cpp)|
+|Rectangle Cutting |[Rectangle Cutting CSES](https://cses.fi/problemset/task/1744)|[Rectangle Cutting Solution](https://github.com/zuhaib786/CSES_SOLUTIONS/blob/main/Dynamic%20Programming/RectangleCutting.cpp)|
+|Removal Game |[Removal Game CSES](https://cses.fi/problemset/task/1097)|[Removal Game Solution](https://github.com/zuhaib786/CSES_SOLUTIONS/blob/main/Dynamic%20Programming/RemovalGame.cpp)|
+|Projects |[Projects CSES](https://cses.fi/problemset/task/1140)|[Projects Solution](https://github.com/zuhaib786/CSES_SOLUTIONS/blob/main/Dynamic%20Programming/Projects.cpp)|
+|Two Sets II |[Two Sets II CSES](https://cses.fi/problemset/task/1093)|[Two Sets II Solution](https://github.com/zuhaib786/CSES_SOLUTIONS/blob/main/Dynamic%20Programming/TwoSetsII.cpp)|
+|Minimizing Coins |[Minimizing Coins CSES](https://cses.fi/problemset/task/1634)|[Minimizing Coins Solution](https://github.com/zuhaib786/CSES_SOLUTIONS/blob/main/Dynamic%20Programming/MinimizingCoins.cpp)|
+|Dice Combinations |[Dice Combinations CSES](https://cses.fi/problemset/task/1633)|[Dice Combinations Solution](https://github.com/zuhaib786/CSES_SOLUTIONS/blob/main/Dynamic%20Programming/DiceCombinations.cpp)|
+
+# Graph Algorithms  
+| Problem Name | Link to the problem | Solution Link |
+|--------------|-------------------- | ------------- |
+|Counting Rooms |[Counting Rooms CSES](https://cses.fi/problemset/task/1192)|[Counting Rooms Solution](https://github.com/zuhaib786/CSES_SOLUTIONS/blob/main/Graph%20Algorithms/CountingRooms.cpp)|
+|Teleporters Path |[Teleporters Path CSES](https://cses.fi/problemset/task/1693)|[Teleporters Path Solution](https://github.com/zuhaib786/CSES_SOLUTIONS/blob/main/Graph%20Algorithms/TeleportersPath.cpp)|
+|Building Roads |[Building Roads CSES](https://cses.fi/problemset/task/1666)|[Building Roads Solution](https://github.com/zuhaib786/CSES_SOLUTIONS/blob/main/Graph%20Algorithms/BuildingRoads.cpp)|
+|Building Teams |[Building Teams CSES](https://cses.fi/problemset/task/1668)|[Building Teams Solution](https://github.com/zuhaib786/CSES_SOLUTIONS/blob/main/Graph%20Algorithms/BuildingTeams.cpp)|
+|Coin Collector |[Coin Collector CSES](https://cses.fi/problemset/task/1686)|[Coin Collector Solution](https://github.com/zuhaib786/CSES_SOLUTIONS/blob/main/Graph%20Algorithms/CoinCollector.cpp)|
+|Planet Queries II |[Planet Queries II CSES](https://cses.fi/problemset/task/1160)|[Planet Queries II Solution](https://github.com/zuhaib786/CSES_SOLUTIONS/blob/main/Graph%20Algorithms/PlanetQueriesII.cpp)|
+|Planet Queries I |[Planet Queries I CSES](https://cses.fi/problemset/task/1750)|[Planet Queries I Solution](https://github.com/zuhaib786/CSES_SOLUTIONS/blob/main/Graph%20Algorithms/PlanetQueriesI.cpp)|
+|Round Trip II |[Round Trip II CSES](https://cses.fi/problemset/task/1678)|[Round Trip II Solution](https://github.com/zuhaib786/CSES_SOLUTIONS/blob/main/Graph%20Algorithms/RoundTripII.cpp)|
+|Longest Flight Route |[Longest Flight Route CSES](https://cses.fi/problemset/task/1680)|[Longest Flight Route Solution](https://github.com/zuhaib786/CSES_SOLUTIONS/blob/main/Graph%20Algorithms/LongestFlightRoute.cpp)|
+|High Score |[High Score CSES](https://cses.fi/problemset/task/1673)|[High Score Solution](https://github.com/zuhaib786/CSES_SOLUTIONS/blob/main/Graph%20Algorithms/HighScore.cpp)|
+|Flight Routes |[Flight Routes CSES](https://cses.fi/problemset/task/1196)|[Flight Routes Solution](https://github.com/zuhaib786/CSES_SOLUTIONS/blob/main/Graph%20Algorithms/FlightRoutes.cpp)|
+|Shortest Routes II |[Shortest Routes II CSES](https://cses.fi/problemset/task/1672)|[Shortest Routes II Solution](https://github.com/zuhaib786/CSES_SOLUTIONS/blob/main/Graph%20Algorithms/ShortestRoutesII.cpp)|
+|Monsters |[Monsters CSES](https://cses.fi/problemset/task/1194)|[Monsters Solution](https://github.com/zuhaib786/CSES_SOLUTIONS/blob/main/Graph%20Algorithms/Monsters.cpp)|
+|Shortest Routes I |[Shortest Routes I CSES](https://cses.fi/problemset/task/1671)|[Shortest Routes I Solution](https://github.com/zuhaib786/CSES_SOLUTIONS/blob/main/Graph%20Algorithms/ShortestRoutesI.cpp)|
+|Round Trip |[Round Trip CSES](https://cses.fi/problemset/task/1669)|[Round Trip Solution](https://github.com/zuhaib786/CSES_SOLUTIONS/blob/main/Graph%20Algorithms/RoundTrip.cpp)|
+|Road Reparation |[Road Reparation CSES](https://cses.fi/problemset/task/1675)|[Road Reparation Solution](https://github.com/zuhaib786/CSES_SOLUTIONS/blob/main/Graph%20Algorithms/RoadReparation.cpp)|
+|Labyrinth |[Labyrinth CSES](https://cses.fi/problemset/task/1193)|[Labyrinth Solution](https://github.com/zuhaib786/CSES_SOLUTIONS/blob/main/Graph%20Algorithms/Labyrinth.cpp)|
+|Cycle Finding |[Cycle Finding CSES](https://cses.fi/problemset/task/1197)|[Cycle Finding Solution](https://github.com/zuhaib786/CSES_SOLUTIONS/blob/main/Graph%20Algorithms/CycleFinding.cpp)|
+|Flight Routes Check |[Flight Routes Check CSES](https://cses.fi/problemset/task/1682)|[Flight Routes Check Solution](https://github.com/zuhaib786/CSES_SOLUTIONS/blob/main/Graph%20Algorithms/FlightRoutesCheck.cpp)|
+|Mail Delivery |[Mail Delivery CSES](https://cses.fi/problemset/task/1691)|[Mail Delivery Solution](https://github.com/zuhaib786/CSES_SOLUTIONS/blob/main/Graph%20Algorithms/MailDelivery.cpp)|
+|Flight Discount |[Flight Discount CSES](https://cses.fi/problemset/task/1195)|[Flight Discount Solution](https://github.com/zuhaib786/CSES_SOLUTIONS/blob/main/Graph%20Algorithms/FlightDiscount.cpp)|
+|Road Construction |[Road Construction CSES](https://cses.fi/problemset/task/1676)|[Road Construction Solution](https://github.com/zuhaib786/CSES_SOLUTIONS/blob/main/Graph%20Algorithms/RoadConstruction.cpp)|
+|De Bruijn Sequence |[De Bruijn Sequence CSES](https://cses.fi/problemset/task/1692)|[De Bruijn Sequence Solution](https://github.com/zuhaib786/CSES_SOLUTIONS/blob/main/Graph%20Algorithms/DeBruijnSequence.cpp)|
+|Course Schedule |[Course Schedule CSES](https://cses.fi/problemset/task/1679)|[Course Schedule Solution](https://github.com/zuhaib786/CSES_SOLUTIONS/blob/main/Graph%20Algorithms/CourseSchedule.cpp)|
+|Giant Pizza |[Giant Pizza CSES](https://cses.fi/problemset/task/1684)|[Giant Pizza Solution](https://github.com/zuhaib786/CSES_SOLUTIONS/blob/main/Graph%20Algorithms/GiantPizza.cpp)|
+|Game Routes |[Game Routes CSES](https://cses.fi/problemset/task/1681)|[Game Routes Solution](https://github.com/zuhaib786/CSES_SOLUTIONS/blob/main/Graph%20Algorithms/GameRoutes.cpp)|
+|Planets And Kingdoms |[Planets And Kingdoms CSES](https://cses.fi/problemset/task/1683)|[Planets And Kingdoms Solution](https://github.com/zuhaib786/CSES_SOLUTIONS/blob/main/Graph%20Algorithms/PlanetsAndKingdoms.cpp)|
+|Message Route |[Message Route CSES](https://cses.fi/problemset/task/1667)|[Message Route Solution](https://github.com/zuhaib786/CSES_SOLUTIONS/blob/main/Graph%20Algorithms/MessageRoute.cpp)|
+|Investigation |[Investigation CSES](https://cses.fi/problemset/task/1202)|[Investigation Solution](https://github.com/zuhaib786/CSES_SOLUTIONS/blob/main/Graph%20Algorithms/Investigation.cpp)|
+
+# Tree Algorithms
+| Problem Name | Link to the problem | Solution Link |
+|--------------|-------------------- | ------------- |
+|Tree Diameter |[Tree Diameter CSES](https://cses.fi/problemset/task/1131)|[Tree Diameter Solution](https://github.com/zuhaib786/CSES_SOLUTIONS/blob/main/Tree%20Algorithms/TreeDiameter.cpp)|
+|Tree Matching |[Tree Matching CSES](https://cses.fi/problemset/task/1130)|[Tree Matching Solution](https://github.com/zuhaib786/CSES_SOLUTIONS/blob/main/Tree%20Algorithms/TreeMatching.cpp)|
+|Subordinates |[Subordinates CSES](https://cses.fi/problemset/task/1674)|[Subordinates Solution](https://github.com/zuhaib786/CSES_SOLUTIONS/blob/main/Tree%20Algorithms/Subordinates.cpp)|
+
+# Range Queries
+| Problem Name | Link to the problem | Solution Link |
+|--------------|-------------------- | ------------- |
+|Hotel Queries |[Hotel Queries CSES](https://cses.fi/problemset/task/1143)|[Hotel Queries Solution](https://github.com/zuhaib786/CSES_SOLUTIONS/blob/main/Range%20Queries/HotelQueries.cpp)|
+|Dynamic Range Minimum Queries |[Dynamic Range Minimum Queries CSES](https://cses.fi/problemset/task/1649)|[Dynamic Range Minimum Queries Solution](https://github.com/zuhaib786/CSES_SOLUTIONS/blob/main/Range%20Queries/DynamicRangeMinimumQueries.cpp)|
+|Static Range Minimum Queries |[Static Range Minimum Queries CSES](https://cses.fi/problemset/task/1647)|[Static Range Minimum Queries Solution](https://github.com/zuhaib786/CSES_SOLUTIONS/blob/main/Range%20Queries/StaticRangeMinimumQueries.cpp)|
+|Range Xor Queries |[Range Xor Queries CSES](https://cses.fi/problemset/task/1650)|[Range Xor Queries Solution](https://github.com/zuhaib786/CSES_SOLUTIONS/blob/main/Range%20Queries/RangeXorQueries.cpp)|
+|Dynamic Range Sum Queries |[Dynamic Range Sum Queries CSES](https://cses.fi/problemset/task/1648)|[Dynamic Range Sum Queries Solution](https://github.com/zuhaib786/CSES_SOLUTIONS/blob/main/Range%20Queries/DynamicRangeSumQueries.cpp)|
+|Static Range Sum Queries |[Static Range Sum Queries CSES](https://cses.fi/problemset/task/1646)|[Static Range Sum Queries Solution](https://github.com/zuhaib786/CSES_SOLUTIONS/blob/main/Range%20Queries/StaticRangeSumQueries.cpp)|
+|Range Update Queries |[Range Update Queries CSES](https://cses.fi/problemset/task/1651)|[Range Update Queries Solution](https://github.com/zuhaib786/CSES_SOLUTIONS/blob/main/Range%20Queries/RangeUpdateQueries.cpp)|
+|List Removals |[List Removals CSES](https://cses.fi/problemset/task/1749)|[List Removals Solution](https://github.com/zuhaib786/CSES_SOLUTIONS/blob/main/Range%20Queries/ListRemovals.cpp)|
+|Forest Queries |[Forest Queries CSES](https://cses.fi/problemset/task/1652)|[Forest Queries Solution](https://github.com/zuhaib786/CSES_SOLUTIONS/blob/main/Range%20Queries/ForestQueries.cpp)|
+|Salary Queries |[Salary Queries CSES](https://cses.fi/problemset/task/1144)|[Salary Queries Solution](https://github.com/zuhaib786/CSES_SOLUTIONS/blob/main/Range%20Queries/SalaryQueries.cpp)|
+
+# Mathematics
+| Problem Name | Link to the problem | Solution Link |
+|--------------|-------------------- | ------------- |
+Couting Divisors |[Couting Divisors CSES](https://cses.fi/problemset/task/1713)|[Couting Divisors Solution](https://github.com/zuhaib786/CSES_SOLUTIONS/blob/main/Mathematics/CoutingDivisors.cpp)|
+|Exponentiation II |[Exponentiation II CSES](https://cses.fi/problemset/task/1712)|[Exponentiation II Solution](https://github.com/zuhaib786/CSES_SOLUTIONS/blob/main/Mathematics/ExponentiationII.cpp)|
+|Exponentiation |[Exponentiation CSES](https://cses.fi/problemset/task/1095)|[Exponentiation Solution](https://github.com/zuhaib786/CSES_SOLUTIONS/blob/main/Mathematics/Exponentiation.cpp)|
+|Common Divisors |[Common Divisors CSES](https://cses.fi/problemset/task/1081)|[Common Divisors Solution](https://github.com/zuhaib786/CSES_SOLUTIONS/blob/main/Mathematics/CommonDivisors.cpp)|
 
 ## Discussion of solutions to some of the problems.
 
